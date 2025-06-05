@@ -7,7 +7,7 @@ import { open as dbOpen } from 'sqlite'
         driver: sqlite3,
         filename: "MessageLogs.db"
     });
-    db.exec(/*sql*/`
+    await db.exec(/*sql*/`
         CREATE TABLE IF NOT EXISTS BackupLogs (
             RanAt INTEGER PRIMARY KEY,
             FirstMsgID INTEGER NOT NULL UNIQUE,
