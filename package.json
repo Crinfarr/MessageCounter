@@ -1,0 +1,26 @@
+{
+  "name": "messagecounter",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crinfarr/MessageCounter.git"
+  },
+  "author": "Crinfarr",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Crinfarr/MessageCounter/issues"
+  },
+  "homepage": "https://github.com/Crinfarr/MessageCounter#readme",
+  "description": "",
+  "dependencies": {
+    "@types/sqlite3": "^3.1.11",
+    "cron": "^4.3.1",
+    "discord.js": "^14.19.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}

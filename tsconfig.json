@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "incremental": true,
+        "moduleResolution": "nodenext",
+        "module": "nodenext",
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "outDir": "bin",
+        "rootDir": "src",
+        "target": "esnext",
+        "tsBuildInfoFile": "bin/inc",
+    },
+    "buildOptions": {
+        "incremental": true
+    }
+}
